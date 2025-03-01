@@ -1,0 +1,120 @@
+Top-level structure:
+1. meta
+  2. disclaimer
+    (Value type: str)
+  2. terms
+    (Value type: str)
+  2. license
+    (Value type: str)
+  2. last_updated
+    (Value type: str)
+  2. results
+    3. skip
+      (Value type: int)
+    3. limit
+      (Value type: int)
+    3. total
+      (Value type: int)
+1. results
+  2. List of 12000 items
+    (First item structure):
+    3. safetyreportversion
+      (Value type: str)
+    3. safetyreportid
+      (Value type: str)
+    3. primarysourcecountry
+      (Value type: str)
+    3. occurcountry
+      (Value type: str)
+    3. transmissiondateformat
+      (Value type: str)
+    3. transmissiondate
+      (Value type: str)
+    3. reporttype
+      (Value type: str)
+    3. serious
+      (Value type: str)
+    3. seriousnessother
+      (Value type: str)
+    3. receivedateformat
+      (Value type: str)
+    3. receivedate
+      (Value type: str)
+    3. receiptdateformat
+      (Value type: str)
+    3. receiptdate
+      (Value type: str)
+    3. fulfillexpeditecriteria
+      (Value type: str)
+    3. companynumb
+      (Value type: str)
+    3. duplicate
+      (Value type: str)
+    3. reportduplicate
+      4. duplicatesource
+        (Value type: str)
+      4. duplicatenumb
+        (Value type: str)
+    3. primarysource
+      4. reportercountry
+        (Value type: str)
+      4. qualification
+        (Value type: str)
+    3. sender
+      4. sendertype
+        (Value type: str)
+      4. senderorganization
+        (Value type: str)
+    3. receiver
+      4. receivertype
+        (Value type: str)
+      4. receiverorganization
+        (Value type: str)
+    3. patient
+      4. patientsex
+        (Value type: str)
+      4. reaction
+        5. List of 1 items
+          (First item structure):
+          6. reactionmeddraversionpt
+            (Value type: str)
+          6. reactionmeddrapt
+            (Value type: str)
+          6. reactionoutcome
+            (Value type: str)
+      4. drug
+        5. List of 7 items
+          (First item structure):
+          6. drugcharacterization
+            (Value type: str)
+          6. medicinalproduct
+            (Value type: str)
+          6. drugbatchnumb
+            (Value type: str)
+          6. drugseparatedosagenumb
+            (Value type: str)
+          6. drugintervaldosageunitnumb
+            (Value type: str)
+          6. drugintervaldosagedefinition
+            (Value type: str)
+          6. drugdosagetext
+            (Value type: str)
+          6. drugadministrationroute
+            (Value type: str)
+          6. drugindication
+            (Value type: str)
+          6. drugstartdateformat
+            (Value type: str)
+          6. drugstartdate
+            (Value type: str)
+          6. drugenddateformat
+            (Value type: str)
+          6. drugenddate
+            (Value type: str)
+          6. actiondrug
+            (Value type: str)
+          6. drugadditional
+            (Value type: str)
+          6. activesubstance
+            7. activesubstancename
+              (Value type: str)
